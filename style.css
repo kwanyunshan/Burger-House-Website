@@ -1,0 +1,164 @@
+.body {
+    background-image: url('Folder image/Banner_image.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+
+.h1 {
+    text-align: center;
+    font-size: 400%;
+    font-family: algerian;
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.nav{
+    text-align: center;
+    font-size: 200%;
+    padding: 20px;
+}
+.banner-container{
+    text-align: center;
+}
+.banner.image{
+    width: 700px;
+    height: auto;
+}
+.button-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.download-btn {
+    background-color: rgb(251, 93, 19);
+    color: white;
+    font-size: 24px;
+    padding: 15px 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.social-image {
+    width: 200px;
+    height: 70px;
+    padding: 30px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.hero-img {
+    width: 45%;
+}
+
+.hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    width: 50%;
+    color: white;
+    font-size: 26px;
+}
+
+
+
+footer {
+    color: white;
+    background: black;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.hero-img {
+    width: 45%;
+}
+
+.hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    width: 50%;
+    color: white;
+    font-size: 26px;
+}
+
+.slider-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    background: rgba(0,0,0,0.5);
+    color: rgb(250, 249, 249);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+
+
+
+
+.top-buttons {
+    text-align: center;
+    margin: 30px;
+
+}
+
+.top-buttons button {
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: rgb(174, 172, 172);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+    flex: 1;
+}
+.image-box {
+    border: 2px solid black;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
